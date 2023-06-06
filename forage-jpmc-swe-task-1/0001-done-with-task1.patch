@@ -1,0 +1,157 @@
+From ba307bc19a5adf2509b203d6d08df517f71d1bde Mon Sep 17 00:00:00 2001
+From: ysygMhdyt <shenyiyi2001@163.com>
+Date: Tue, 6 Jun 2023 17:22:51 +0800
+Subject: [PATCH] done with task1
+
+---
+ forage-jpmc-swe-task-1/.DS_Store                 | Bin 0 -> 6148 bytes
+ forage-jpmc-swe-task-1/.idea/.gitignore          |   3 +++
+ .../.idea/forage-jpmc-swe-task-1.iml             |  14 ++++++++++++++
+ .../inspectionProfiles/profiles_settings.xml     |   6 ++++++
+ forage-jpmc-swe-task-1/.idea/misc.xml            |   4 ++++
+ forage-jpmc-swe-task-1/.idea/modules.xml         |   8 ++++++++
+ forage-jpmc-swe-task-1/.idea/vcs.xml             |   6 ++++++
+ forage-jpmc-swe-task-1/client3.py                |  10 +++++++---
+ 8 files changed, 48 insertions(+), 3 deletions(-)
+ create mode 100644 forage-jpmc-swe-task-1/.DS_Store
+ create mode 100644 forage-jpmc-swe-task-1/.idea/.gitignore
+ create mode 100644 forage-jpmc-swe-task-1/.idea/forage-jpmc-swe-task-1.iml
+ create mode 100644 forage-jpmc-swe-task-1/.idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 forage-jpmc-swe-task-1/.idea/misc.xml
+ create mode 100644 forage-jpmc-swe-task-1/.idea/modules.xml
+ create mode 100644 forage-jpmc-swe-task-1/.idea/vcs.xml
+
+diff --git a/forage-jpmc-swe-task-1/.DS_Store b/forage-jpmc-swe-task-1/.DS_Store
+new file mode 100644
+index 0000000000000000000000000000000000000000..5008ddfcf53c02e82d7eee2e57c38e5672ef89f6
+GIT binary patch
+literal 6148
+zcmeH~Jr2S!425mzP>H1@V-^m;4Wg<&0T*E43hX&L&p$$qDprKhvt+--jT7}7np#A3
+zem<@ulZcFPQ@L2!n>{z**<q8>++&mCkOWA81W14cNZ<zv;LbK1Poaz?KmsK2CSc!(
+z0ynLxE!0092;Krf2c+FF_Fe*7ECH>lEfg7;MkzE(HCqgga^y>{tEnwC%0;vJ&^%eQ
+zLs35+`xjp>T0<F0fCPF1$Cyrb|F7^5{eNG?83~ZUUlGt@xh*qZDeu<Z%US-OSsOPv
+j)R!Z4KLME7ReXlK;d!wEw5GODWMKRea10D2@KpjYNUI8I
+
+literal 0
+HcmV?d00001
+
+diff --git a/forage-jpmc-swe-task-1/.idea/.gitignore b/forage-jpmc-swe-task-1/.idea/.gitignore
+new file mode 100644
+index 0000000..26d3352
+--- /dev/null
++++ b/forage-jpmc-swe-task-1/.idea/.gitignore
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+diff --git a/forage-jpmc-swe-task-1/.idea/forage-jpmc-swe-task-1.iml b/forage-jpmc-swe-task-1/.idea/forage-jpmc-swe-task-1.iml
+new file mode 100644
+index 0000000..8e5446a
+--- /dev/null
++++ b/forage-jpmc-swe-task-1/.idea/forage-jpmc-swe-task-1.iml
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/venv" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++  <component name="PyDocumentationSettings">
++    <option name="format" value="PLAIN" />
++    <option name="myDocStringFormat" value="Plain" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/forage-jpmc-swe-task-1/.idea/inspectionProfiles/profiles_settings.xml b/forage-jpmc-swe-task-1/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+index 0000000..105ce2d
+--- /dev/null
++++ b/forage-jpmc-swe-task-1/.idea/inspectionProfiles/profiles_settings.xml
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+diff --git a/forage-jpmc-swe-task-1/.idea/misc.xml b/forage-jpmc-swe-task-1/.idea/misc.xml
+new file mode 100644
+index 0000000..13970e5
+--- /dev/null
++++ b/forage-jpmc-swe-task-1/.idea/misc.xml
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (forage-jpmc-swe-task-1)" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+diff --git a/forage-jpmc-swe-task-1/.idea/modules.xml b/forage-jpmc-swe-task-1/.idea/modules.xml
+new file mode 100644
+index 0000000..973696f
+--- /dev/null
++++ b/forage-jpmc-swe-task-1/.idea/modules.xml
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/forage-jpmc-swe-task-1.iml" filepath="$PROJECT_DIR$/.idea/forage-jpmc-swe-task-1.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/forage-jpmc-swe-task-1/.idea/vcs.xml b/forage-jpmc-swe-task-1/.idea/vcs.xml
+new file mode 100644
+index 0000000..6c0b863
+--- /dev/null
++++ b/forage-jpmc-swe-task-1/.idea/vcs.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/forage-jpmc-swe-task-1/client3.py b/forage-jpmc-swe-task-1/client3.py
+index 3fc09b7..398a8b9 100644
+--- a/forage-jpmc-swe-task-1/client3.py
++++ b/forage-jpmc-swe-task-1/client3.py
+@@ -35,14 +35,16 @@ def getDataPoint(quote):
+     stock = quote['stock']
+     bid_price = float(quote['top_bid']['price'])
+     ask_price = float(quote['top_ask']['price'])
+-    price = bid_price
++    price = (bid_price + ask_price) / 2
+     return stock, bid_price, ask_price, price
+ 
+ 
+ def getRatio(price_a, price_b):
+     """ Get ratio of price_a and price_b """
+     """ ------------- Update this function ------------- """
+-    return 1
++    if(price_b == 0):
++        return
++    return price_a / price_b
+ 
+ 
+ # Main
+@@ -52,8 +54,10 @@ if __name__ == "__main__":
+         quotes = json.loads(urllib.request.urlopen(QUERY.format(random.random())).read())
+ 
+         """ ----------- Update to get the ratio --------------- """
++        prices = {}
+         for quote in quotes:
+             stock, bid_price, ask_price, price = getDataPoint(quote)
++            prices[stock] = price
+             print("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
+ 
+-        print("Ratio %s" % getRatio(price, price))
++        print("Ratio %s" % getRatio(prices["ABC"], prices["DEF"]))
+-- 
+2.24.3 (Apple Git-128)
+
